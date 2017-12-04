@@ -121,10 +121,7 @@ public class DispatcherFilter implements Filter {
             } else {
                 chain.doFilter(request, response);
             }
-            
-            
-            
-            chain.doFilter(request, response);
+                                               
         } catch (Throwable t) {        
             problem = t;
             t.printStackTrace();
